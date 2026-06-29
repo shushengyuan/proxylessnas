@@ -1,0 +1,7 @@
+candidate_group,ops,trend_iou,trend_search_cost_gpu_hours_400,raw_mapped_iou,raw_search_cost_gpu_hours_400,note
+Res,3,0.603957,0.282931,0.661933,0.282931,raw 400ep point
+Res+Group,6,0.627340,0.301691,0.609675,0.387010,raw 400ep point
+Res+Group+Spa,9,0.646485,0.477287,0.586108,0.345706,raw 400ep point
+Res+Group+Spa+MBConv,12,0.662160,1.045966,0.604552,1.045966,raw 400ep point; cost anchor
++Shuffle,15,0.674993,2.296453,,,"interpolated intermediate point, not an independent search run"
++Shuffle+Ghost,18,0.685500,4.556876,0.685500,4.556876,full-space anchor

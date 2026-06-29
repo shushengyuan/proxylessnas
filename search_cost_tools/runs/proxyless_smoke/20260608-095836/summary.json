@@ -1,0 +1,340 @@
+{
+  "status": "complete",
+  "start": "2026-06-08 09:58:36",
+  "end": "2026-06-08 09:59:19",
+  "elapsed_seconds": 43.44293689727783,
+  "elapsed_hours": 0.012067482471466065,
+  "gpus": 1,
+  "gpu_hours": 0.012067482471466065,
+  "setup_seconds": 3.267974615097046,
+  "warmup_seconds": 14.973400354385376,
+  "warmup_gpu_hours": 0.00415927787621816,
+  "search_seconds": 23.758727550506592,
+  "search_gpu_hours": 0.006599646541807387,
+  "completed_warmup_epochs": 1,
+  "completed_search_epochs": 2,
+  "stop_reason": "max_epochs_reached",
+  "final_signature": [
+    [
+      0,
+      1,
+      "3x3_MBConv6"
+    ],
+    [
+      1,
+      2,
+      "5x5_MBConv3"
+    ],
+    [
+      2,
+      0,
+      "3x3_MBConv3"
+    ],
+    [
+      3,
+      0,
+      "3x3_MBConv3"
+    ],
+    [
+      4,
+      2,
+      "5x5_MBConv3"
+    ],
+    [
+      5,
+      2,
+      "5x5_MBConv3"
+    ],
+    [
+      6,
+      4,
+      "7x7_MBConv3"
+    ],
+    [
+      7,
+      "skipped"
+    ],
+    [
+      8,
+      4,
+      "7x7_MBConv3"
+    ],
+    [
+      9,
+      0,
+      "3x3_MBConv3"
+    ],
+    [
+      10,
+      2,
+      "5x5_MBConv3"
+    ],
+    [
+      11,
+      "skipped"
+    ],
+    [
+      12,
+      0,
+      "3x3_MBConv3"
+    ],
+    [
+      13,
+      "skipped"
+    ],
+    [
+      14,
+      0,
+      "3x3_MBConv3"
+    ]
+  ],
+  "run_dir": "/home/intern/proxylessnas/search_cost_tools/runs/proxyless_smoke/20260608-095836",
+  "proxyless_log": "/home/intern/proxylessnas/search_cost_tools/runs/proxyless_smoke/20260608-095836/proxyless_logs/2_NUAA-SIRST_Super_all_Proxyless_08_06_2026_09_58_39",
+  "history": "/home/intern/proxylessnas/search_cost_tools/runs/proxyless_smoke/20260608-095836/history.jsonl",
+  "control_args": {
+    "repo": "/home/intern/nas/proxylessnas-master-SIRST-new-final_share",
+    "data_root": "/home/intern/proxylessnas/datasetyhy",
+    "gene": "/home/intern/proxylessnas/search1yhy/0_all_search_1_NUAA-SIRST_DNANet_23_10_2023_20_06_25_new/phase1_gene.txt",
+    "dataset": "NUAA-SIRST",
+    "split_method": "50_50",
+    "suffix": ".png",
+    "gpu": "2",
+    "warmup_epochs": 1,
+    "search_epochs": 2,
+    "min_search_epochs": 1,
+    "patience": 1,
+    "disable_stability_stop": false,
+    "train_batch_size": 4,
+    "test_batch_size": 4,
+    "valid_size": 1,
+    "workers": 0,
+    "base_size": 256,
+    "crop_size": 256,
+    "seed": 0,
+    "output_dir": "/home/intern/proxylessnas/search_cost_tools/runs/proxyless_smoke"
+  },
+  "proxyless_args": {
+    "path": "/home/intern/proxylessnas/search_cost_tools/runs/proxyless_smoke/20260608-095836/proxyless_logs/2_NUAA-SIRST_Super_all_Proxyless_08_06_2026_09_58_39",
+    "resume": false,
+    "manual_seed": 0,
+    "init_lr": 0.01,
+    "lr_schedule_type": "cosine",
+    "dataset": "NUAA-SIRST",
+    "train_batch_size": 4,
+    "test_batch_size": 4,
+    "valid_size": 1,
+    "opt_type": "Adagrad",
+    "momentum": 0.9,
+    "no_nesterov": false,
+    "weight_decay": 4e-05,
+    "label_smoothing": 0.1,
+    "no_decay_keys": null,
+    "model_init": "he_fout",
+    "init_div_groups": false,
+    "validation_frequency": 1,
+    "print_frequency": 10,
+    "n_worker": 0,
+    "resize_scale": 0.08,
+    "distort_color": "normal",
+    "id_mode": "TXT",
+    "root": "/home/intern/proxylessnas/datasetyhy",
+    "split_method": "50_50",
+    "base_size": 256,
+    "crop_size": 256,
+    "suffix": ".png",
+    "eval_batch_size": 1,
+    "num_class": 1,
+    "iterations": 5,
+    "conv_type": "res_add_new_new",
+    "channel_num": "two",
+    "in_channel": 3,
+    "arch_algo": "grad",
+    "arch_init_type": "normal",
+    "arch_init_ratio": 0.001,
+    "arch_opt_type": "adam",
+    "arch_lr": 0.005,
+    "arch_adam_beta1": 0.0,
+    "arch_adam_beta2": 0.999,
+    "arch_adam_eps": 1e-08,
+    "arch_weight_decay": 0,
+    "target_hardware": "flops",
+    "fast": "False",
+    "grad_update_arch_param_every": 5,
+    "grad_update_steps": 1,
+    "grad_binary_mode": "full_v2",
+    "grad_data_batch": null,
+    "grad_reg_loss_type": "add#linear",
+    "grad_reg_loss_lambda": 0.1,
+    "grad_reg_loss_alpha": 0.2,
+    "grad_reg_loss_beta": 0.3,
+    "ref_value": 900000000.0,
+    "random_choose": "False",
+    "warmup_epochs": 1,
+    "n_epochs": 2,
+    "retrain_epoch": 1500,
+    "retrain_init_lr": 0.05,
+    "retrain_fixed_lr": 0.01,
+    "retrain_lr_schedule_type": "fixed",
+    "retrain_valid_size": 1,
+    "retrain_latency": "gpu",
+    "gpu": "2",
+    "retrain_log_path": "0,1_NUAA-SIRST_Super_all_Res_Group_Spa_MBConv_26_10_2023_12_47_26",
+    "add_decoder": "False",
+    "add_encoder0": "True",
+    "mode": "all_search_train",
+    "model_name": "Super_all",
+    "candidates_type": "Proxyless",
+    "gene": "/home/intern/proxylessnas/search1yhy/0_all_search_1_NUAA-SIRST_DNANet_23_10_2023_20_06_25_new/phase1_gene.txt",
+    "ROC_thr": 10,
+    "postprocess": "none",
+    "Inference_resize": "True",
+    "Inference_repeated": 1,
+    "backbone": "resnet_18",
+    "more_down": "False",
+    "lr_schedule_param": null,
+    "opt_param": {
+      "momentum": 0.9,
+      "nesterov": true
+    },
+    "conv_candidates": [
+      "3x3_MBConv3",
+      "3x3_MBConv6",
+      "5x5_MBConv3",
+      "5x5_MBConv6",
+      "7x7_MBConv3",
+      "7x7_MBConv6"
+    ],
+    "conv_name": {
+      "iter_0": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_1": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_2": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_3": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_4": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_5": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_6": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_7": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_8": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_9": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_10": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_11": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_12": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_13": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      },
+      "iter_14": {
+        "3x3_MBConv3": "expand:3,kernel:3,group:0,",
+        "3x3_MBConv6": "expand:6,kernel:3,group:0,",
+        "5x5_MBConv3": "expand:3,kernel:5,group:0,",
+        "5x5_MBConv6": "expand:6,kernel:5,group:0,",
+        "7x7_MBConv3": "expand:3,kernel:7,group:0,",
+        "7x7_MBConv6": "expand:6,kernel:7,group:0,"
+      }
+    },
+    "arch_opt_param": {
+      "betas": [
+        0.0,
+        0.999
+      ],
+      "eps": 1e-08
+    },
+    "grad_reg_loss_params": {
+      "lambda": 0.1
+    }
+  }
+}

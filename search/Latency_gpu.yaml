@@ -1,0 +1,433 @@
+MBConv0_0_0: 
+  MBConv-input:256x256x3-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000338534396887
+MBConv0_0_1: 
+  MBConv-input:256x256x3-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000212684801221
+MBConv0_0_2: 
+  MBConv-input:256x256x3-output:256x256x8-expand:6-kernel:5-stride:1-group:0,value:0.000229487998784
+ResCon0_0_3: 
+  ResCon-input:256x256x3-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000252380800247
+ResCon0_0_4: 
+  ResCon-input:256x256x3-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000171545597166
+ResCon0_0_5: 
+  ResCon-input:256x256x3-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000261734396219
+GroupConv0_0_6: 
+  GroupConv-input:256x256x3-output:256x256x8-expand:0-kernel:3-stride:1-group:2,value:0.000222841600329
+GroupConv0_0_7: 
+  GroupConv-input:256x256x3-output:256x256x8-expand:0-kernel:3-stride:1-group:4,value:0.000231555198133
+GroupConv0_0_8: 
+  GroupConv-input:256x256x3-output:256x256x8-expand:0-kernel:3-stride:1-group:8,value:0.000231043200195
+SpaCon0_0_9: 
+  SpaCon-input:256x256x3-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000374374401569
+SpaCon0_0_10: 
+  SpaCon-input:256x256x3-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000372428798676
+SpaCon0_0_11: 
+  SpaCon-input:256x256x3-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000372531196475
+ShuffleMBConv0_0_12: 
+  ShuffleMBConv-input:256x256x3-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000391923201084
+ShuffleMBConv0_0_13: 
+  ShuffleMBConv-input:256x256x3-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000407875201106
+ShuffleMBConv0_0_14: 
+  ShuffleMBConv-input:256x256x3-output:256x256x8-expand:8-kernel:3-stride:1-group:0,value:0.000415129598975
+GhostMBConv0_0_15: 
+  GhostMBConv-input:256x256x3-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000470534402132
+GhostMBConv0_0_16: 
+  GhostMBConv-input:256x256x3-output:256x256x8-expand:2-kernel:5-stride:1-group:0,value:0.000415027201176
+GhostMBConv0_0_17: 
+  GhostMBConv-input:256x256x3-output:256x256x8-expand:2-kernel:7-stride:1-group:0,value:0.000427033600211
+MBConv0_1_0: 
+  MBConv-input:128x128x8-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000461545598507
+MBConv0_1_1: 
+  MBConv-input:128x128x8-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.000478723198175
+MBConv0_1_2: 
+  MBConv-input:128x128x8-output:128x128x16-expand:6-kernel:5-stride:1-group:0,value:0.000604358398914
+ResCon0_1_3: 
+  ResCon-input:128x128x8-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.000487247997522
+ResCon0_1_4: 
+  ResCon-input:128x128x8-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000507292801142
+ResCon0_1_5: 
+  ResCon-input:128x128x8-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000549990388751
+GroupConv0_1_6: 
+  GroupConv-input:128x128x8-output:128x128x16-expand:0-kernel:3-stride:1-group:2,value:0.000475558406115
+GroupConv0_1_7: 
+  GroupConv-input:128x128x8-output:128x128x16-expand:0-kernel:3-stride:1-group:4,value:0.000458166402578
+GroupConv0_1_8: 
+  GroupConv-input:128x128x8-output:128x128x16-expand:0-kernel:3-stride:1-group:8,value:0.000443289598823
+SpaCon0_1_9: 
+  SpaCon-input:128x128x8-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.00061737600565
+SpaCon0_1_10: 
+  SpaCon-input:128x128x8-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000631827199459
+SpaCon0_1_11: 
+  SpaCon-input:128x128x8-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000638975995779
+ShuffleMBConv0_1_12: 
+  ShuffleMBConv-input:128x128x8-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000645120000839
+ShuffleMBConv0_1_13: 
+  ShuffleMBConv-input:128x128x8-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.00101683521271
+ShuffleMBConv0_1_14: 
+  ShuffleMBConv-input:128x128x8-output:128x128x16-expand:8-kernel:3-stride:1-group:0,value:0.00104707199931
+GhostMBConv0_1_15: 
+  GhostMBConv-input:128x128x8-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.00079718400836
+GhostMBConv0_1_16: 
+  GhostMBConv-input:128x128x8-output:128x128x16-expand:2-kernel:5-stride:1-group:0,value:0.000532176008821
+GhostMBConv0_1_17: 
+  GhostMBConv-input:128x128x8-output:128x128x16-expand:2-kernel:7-stride:1-group:0,value:0.000706576003134
+MBConv0_2_0: 
+  MBConv-input:64x64x16-output:64x64x32-expand:2-kernel:3-stride:1-group:0,value:0.000486400002241
+MBConv0_2_1: 
+  MBConv-input:64x64x16-output:64x64x32-expand:4-kernel:3-stride:1-group:0,value:0.000489267200232
+MBConv0_2_2: 
+  MBConv-input:64x64x16-output:64x64x32-expand:6-kernel:5-stride:1-group:0,value:0.000431718400121
+ResCon0_2_3: 
+  ResCon-input:64x64x16-output:64x64x32-expand:0-kernel:3-stride:1-group:0,value:0.000453631991148
+ResCon0_2_4: 
+  ResCon-input:64x64x16-output:64x64x32-expand:0-kernel:5-stride:1-group:0,value:0.000509132802486
+ResCon0_2_5: 
+  ResCon-input:64x64x16-output:64x64x32-expand:0-kernel:7-stride:1-group:0,value:0.00053227519393
+GroupConv0_2_6: 
+  GroupConv-input:64x64x16-output:64x64x32-expand:0-kernel:3-stride:1-group:2,value:0.000573952001333
+GroupConv0_2_7: 
+  GroupConv-input:64x64x16-output:64x64x32-expand:0-kernel:3-stride:1-group:4,value:0.000573542404175
+GroupConv0_2_8: 
+  GroupConv-input:64x64x16-output:64x64x32-expand:0-kernel:3-stride:1-group:8,value:0.000450457599759
+SpaCon0_2_9: 
+  SpaCon-input:64x64x16-output:64x64x32-expand:0-kernel:3-stride:1-group:0,value:0.000707583993673
+SpaCon0_2_10: 
+  SpaCon-input:64x64x16-output:64x64x32-expand:0-kernel:5-stride:1-group:0,value:0.000579193598032
+SpaCon0_2_11: 
+  SpaCon-input:64x64x16-output:64x64x32-expand:0-kernel:7-stride:1-group:0,value:0.000360857602954
+ShuffleMBConv0_2_12: 
+  ShuffleMBConv-input:64x64x16-output:64x64x32-expand:2-kernel:3-stride:1-group:0,value:0.000678207999468
+ShuffleMBConv0_2_13: 
+  ShuffleMBConv-input:64x64x16-output:64x64x32-expand:4-kernel:3-stride:1-group:0,value:0.000687936007977
+ShuffleMBConv0_2_14: 
+  ShuffleMBConv-input:64x64x16-output:64x64x32-expand:8-kernel:3-stride:1-group:0,value:0.000691712003946
+GhostMBConv0_2_15: 
+  GhostMBConv-input:64x64x16-output:64x64x32-expand:2-kernel:3-stride:1-group:0,value:0.00081213439703
+GhostMBConv0_2_16: 
+  GhostMBConv-input:64x64x16-output:64x64x32-expand:2-kernel:5-stride:1-group:0,value:0.000830396801233
+GhostMBConv0_2_17: 
+  GhostMBConv-input:64x64x16-output:64x64x32-expand:2-kernel:7-stride:1-group:0,value:0.00082402561307
+MBConv0_3_0: 
+  MBConv-input:32x32x32-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000487219199538
+MBConv0_3_1: 
+  MBConv-input:32x32x32-output:32x32x64-expand:4-kernel:3-stride:1-group:0,value:0.000522044804692
+MBConv0_3_2: 
+  MBConv-input:32x32x32-output:32x32x64-expand:6-kernel:5-stride:1-group:0,value:0.000506265604496
+ResCon0_3_3: 
+  ResCon-input:32x32x32-output:32x32x64-expand:0-kernel:3-stride:1-group:0,value:0.000565043193102
+ResCon0_3_4: 
+  ResCon-input:32x32x32-output:32x32x64-expand:0-kernel:5-stride:1-group:0,value:0.000532588803768
+ResCon0_3_5: 
+  ResCon-input:32x32x32-output:32x32x64-expand:0-kernel:7-stride:1-group:0,value:0.000543023994565
+GroupConv0_3_6: 
+  GroupConv-input:32x32x32-output:32x32x64-expand:0-kernel:3-stride:1-group:2,value:0.000593408000469
+GroupConv0_3_7: 
+  GroupConv-input:32x32x32-output:32x32x64-expand:0-kernel:3-stride:1-group:4,value:0.000289772799611
+GroupConv0_3_8: 
+  GroupConv-input:32x32x32-output:32x32x64-expand:0-kernel:3-stride:1-group:8,value:0.000633446407318
+SpaCon0_3_9: 
+  SpaCon-input:32x32x32-output:32x32x64-expand:0-kernel:3-stride:1-group:0,value:0.00071384960413
+SpaCon0_3_10: 
+  SpaCon-input:32x32x32-output:32x32x64-expand:0-kernel:5-stride:1-group:0,value:0.00073393599391
+SpaCon0_3_11: 
+  SpaCon-input:32x32x32-output:32x32x64-expand:0-kernel:7-stride:1-group:0,value:0.000733104002476
+ShuffleMBConv0_3_12: 
+  ShuffleMBConv-input:32x32x32-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000676771205664
+ShuffleMBConv0_3_13: 
+  ShuffleMBConv-input:32x32x32-output:32x32x64-expand:4-kernel:3-stride:1-group:0,value:0.000671232002974
+ShuffleMBConv0_3_14: 
+  ShuffleMBConv-input:32x32x32-output:32x32x64-expand:8-kernel:3-stride:1-group:0,value:0.000678719997406
+GhostMBConv0_3_15: 
+  GhostMBConv-input:32x32x32-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000810096007586
+GhostMBConv0_3_16: 
+  GhostMBConv-input:32x32x32-output:32x32x64-expand:2-kernel:5-stride:1-group:0,value:0.000847462397814
+GhostMBConv0_3_17: 
+  GhostMBConv-input:32x32x32-output:32x32x64-expand:2-kernel:7-stride:1-group:0,value:0.000833852803707
+MBConv0_4_0: 
+  MBConv-input:16x16x64-output:16x16x128-expand:2-kernel:3-stride:1-group:0,value:0.000445542401075
+MBConv0_4_1: 
+  MBConv-input:16x16x64-output:16x16x128-expand:4-kernel:3-stride:1-group:0,value:0.000511692792922
+MBConv0_4_2: 
+  MBConv-input:16x16x64-output:16x16x128-expand:6-kernel:5-stride:1-group:0,value:0.000451276802644
+ResCon0_4_3: 
+  ResCon-input:16x16x64-output:16x16x128-expand:0-kernel:3-stride:1-group:0,value:0.000525414404273
+ResCon0_4_4: 
+  ResCon-input:16x16x64-output:16x16x128-expand:0-kernel:5-stride:1-group:0,value:0.000566681602597
+ResCon0_4_5: 
+  ResCon-input:16x16x64-output:16x16x128-expand:0-kernel:7-stride:1-group:0,value:0.000540560001135
+GroupConv0_4_6: 
+  GroupConv-input:16x16x64-output:16x16x128-expand:0-kernel:3-stride:1-group:2,value:0.000564019206166
+GroupConv0_4_7: 
+  GroupConv-input:16x16x64-output:16x16x128-expand:0-kernel:3-stride:1-group:4,value:0.000594636797905
+GroupConv0_4_8: 
+  GroupConv-input:16x16x64-output:16x16x128-expand:0-kernel:3-stride:1-group:8,value:0.000598220807314
+SpaCon0_4_9: 
+  SpaCon-input:16x16x64-output:16x16x128-expand:0-kernel:3-stride:1-group:0,value:0.000732057595253
+SpaCon0_4_10: 
+  SpaCon-input:16x16x64-output:16x16x128-expand:0-kernel:5-stride:1-group:0,value:0.000754899197817
+SpaCon0_4_11: 
+  SpaCon-input:16x16x64-output:16x16x128-expand:0-kernel:7-stride:1-group:0,value:0.000791859203577
+ShuffleMBConv0_4_12: 
+  ShuffleMBConv-input:16x16x64-output:16x16x128-expand:2-kernel:3-stride:1-group:0,value:0.000730819195509
+ShuffleMBConv0_4_13: 
+  ShuffleMBConv-input:16x16x64-output:16x16x128-expand:4-kernel:3-stride:1-group:0,value:0.000664086401463
+ShuffleMBConv0_4_14: 
+  ShuffleMBConv-input:16x16x64-output:16x16x128-expand:8-kernel:3-stride:1-group:0,value:0.000848486415297
+GhostMBConv0_4_15: 
+  GhostMBConv-input:16x16x64-output:16x16x128-expand:2-kernel:3-stride:1-group:0,value:0.000780304002017
+GhostMBConv0_4_16: 
+  GhostMBConv-input:16x16x64-output:16x16x128-expand:2-kernel:5-stride:1-group:0,value:0.000845740807056
+GhostMBConv0_4_17: 
+  GhostMBConv-input:16x16x64-output:16x16x128-expand:2-kernel:7-stride:1-group:0,value:0.00084390720129
+MBConv1_0_0: 
+  MBConv-input:256x256x216-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.00165621758699
+MBConv1_0_1: 
+  MBConv-input:256x256x216-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.00410071029663
+MBConv1_0_2: 
+  MBConv-input:256x256x216-output:256x256x8-expand:6-kernel:5-stride:1-group:0,value:0.00654286403656
+ResCon1_0_3: 
+  ResCon-input:256x256x216-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000426502394676
+ResCon1_0_4: 
+  ResCon-input:256x256x216-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000667340809107
+ResCon1_0_5: 
+  ResCon-input:256x256x216-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.00106147841215
+GroupConv1_0_6: 
+  GroupConv-input:256x256x216-output:256x256x8-expand:0-kernel:3-stride:1-group:2,value:0.00025745279938
+GroupConv1_0_7: 
+  GroupConv-input:256x256x216-output:256x256x8-expand:0-kernel:3-stride:1-group:4,value:0.000380022397637
+GroupConv1_0_8: 
+  GroupConv-input:256x256x216-output:256x256x8-expand:0-kernel:3-stride:1-group:8,value:0.000449542397261
+SpaCon1_0_9: 
+  SpaCon-input:256x256x216-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000339865598083
+SpaCon1_0_10: 
+  SpaCon-input:256x256x216-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000392422398925
+SpaCon1_0_11: 
+  SpaCon-input:256x256x216-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000430489602685
+ShuffleMBConv1_0_12: 
+  ShuffleMBConv-input:256x256x216-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000478227204084
+ShuffleMBConv1_0_13: 
+  ShuffleMBConv-input:256x256x216-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000494899201393
+ShuffleMBConv1_0_14: 
+  ShuffleMBConv-input:256x256x216-output:256x256x8-expand:8-kernel:3-stride:1-group:0,value:0.000514457583427
+GhostMBConv1_0_15: 
+  GhostMBConv-input:256x256x216-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.00138649597168
+GhostMBConv1_0_16: 
+  GhostMBConv-input:256x256x216-output:256x256x8-expand:2-kernel:5-stride:1-group:0,value:0.00187013761997
+GhostMBConv1_0_17: 
+  GhostMBConv-input:256x256x216-output:256x256x8-expand:2-kernel:7-stride:1-group:0,value:0.00188856321573
+MBConv1_1_0: 
+  MBConv-input:128x128x248-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000287967997789
+MBConv1_1_1: 
+  MBConv-input:128x128x248-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.000858537602425
+MBConv1_1_2: 
+  MBConv-input:128x128x248-output:128x128x16-expand:6-kernel:5-stride:1-group:0,value:0.0015697920084
+ResCon1_1_3: 
+  ResCon-input:128x128x248-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.000269926396012
+ResCon1_1_4: 
+  ResCon-input:128x128x248-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000348159998655
+ResCon1_1_5: 
+  ResCon-input:128x128x248-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000427622398734
+GroupConv1_1_6: 
+  GroupConv-input:128x128x248-output:128x128x16-expand:0-kernel:3-stride:1-group:2,value:0.00027084800005
+GroupConv1_1_7: 
+  GroupConv-input:128x128x248-output:128x128x16-expand:0-kernel:3-stride:1-group:4,value:0.000356064000726
+GroupConv1_1_8: 
+  GroupConv-input:128x128x248-output:128x128x16-expand:0-kernel:3-stride:1-group:8,value:0.000370483198762
+SpaCon1_1_9: 
+  SpaCon-input:128x128x248-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.000394659203291
+SpaCon1_1_10: 
+  SpaCon-input:128x128x248-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000384355196357
+SpaCon1_1_11: 
+  SpaCon-input:128x128x248-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000381279996037
+ShuffleMBConv1_1_12: 
+  ShuffleMBConv-input:128x128x248-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000372838401794
+ShuffleMBConv1_1_13: 
+  ShuffleMBConv-input:128x128x248-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.000393840000033
+ShuffleMBConv1_1_14: 
+  ShuffleMBConv-input:128x128x248-output:128x128x16-expand:8-kernel:3-stride:1-group:0,value:0.000380723202229
+GhostMBConv1_1_15: 
+  GhostMBConv-input:128x128x248-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000541081595421
+GhostMBConv1_1_16: 
+  GhostMBConv-input:128x128x248-output:128x128x16-expand:2-kernel:5-stride:1-group:0,value:0.000451398399472
+GhostMBConv1_1_17: 
+  GhostMBConv-input:128x128x248-output:128x128x16-expand:2-kernel:7-stride:1-group:0,value:0.00054859200716
+MBConv1_3_0: 
+  MBConv-input:32x32x160-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000281916803122
+MBConv1_3_1: 
+  MBConv-input:32x32x160-output:32x32x64-expand:4-kernel:3-stride:1-group:0,value:0.000214070400596
+MBConv1_3_2: 
+  MBConv-input:32x32x160-output:32x32x64-expand:6-kernel:5-stride:1-group:0,value:0.000275059200823
+ResCon1_3_3: 
+  ResCon-input:32x32x160-output:32x32x64-expand:0-kernel:3-stride:1-group:0,value:0.000359795203805
+ResCon1_3_4: 
+  ResCon-input:32x32x160-output:32x32x64-expand:0-kernel:5-stride:1-group:0,value:0.000222528000176
+ResCon1_3_5: 
+  ResCon-input:32x32x160-output:32x32x64-expand:0-kernel:7-stride:1-group:0,value:0.000218012805283
+GroupConv1_3_6: 
+  GroupConv-input:32x32x160-output:32x32x64-expand:0-kernel:3-stride:1-group:2,value:0.000266863998771
+GroupConv1_3_7: 
+  GroupConv-input:32x32x160-output:32x32x64-expand:0-kernel:3-stride:1-group:4,value:0.000377097600698
+GroupConv1_3_8: 
+  GroupConv-input:32x32x160-output:32x32x64-expand:0-kernel:3-stride:1-group:8,value:0.000435523200035
+SpaCon1_3_9: 
+  SpaCon-input:32x32x160-output:32x32x64-expand:0-kernel:3-stride:1-group:0,value:0.000414003205299
+SpaCon1_3_10: 
+  SpaCon-input:32x32x160-output:32x32x64-expand:0-kernel:5-stride:1-group:0,value:0.000440153595805
+SpaCon1_3_11: 
+  SpaCon-input:32x32x160-output:32x32x64-expand:0-kernel:7-stride:1-group:0,value:0.000449974399805
+ShuffleMBConv1_3_12: 
+  ShuffleMBConv-input:32x32x160-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000409651198983
+ShuffleMBConv1_3_13: 
+  ShuffleMBConv-input:32x32x160-output:32x32x64-expand:4-kernel:3-stride:1-group:0,value:0.000415539202094
+ShuffleMBConv1_3_14: 
+  ShuffleMBConv-input:32x32x160-output:32x32x64-expand:8-kernel:3-stride:1-group:0,value:0.00041666559875
+GhostMBConv1_3_15: 
+  GhostMBConv-input:32x32x160-output:32x32x64-expand:2-kernel:3-stride:1-group:0,value:0.000542617601156
+GhostMBConv1_3_16: 
+  GhostMBConv-input:32x32x160-output:32x32x64-expand:2-kernel:5-stride:1-group:0,value:0.000551219195127
+GhostMBConv1_3_17: 
+  GhostMBConv-input:32x32x160-output:32x32x64-expand:2-kernel:7-stride:1-group:0,value:0.000538124793768
+MBConv2_0_0: 
+  MBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000268604803085
+MBConv2_0_1: 
+  MBConv-input:256x256x24-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000271641598642
+MBConv2_0_2: 
+  MBConv-input:256x256x24-output:256x256x8-expand:6-kernel:5-stride:1-group:0,value:0.000402662396431
+ResCon2_0_3: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000311193600297
+ResCon2_0_4: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000233004796505
+ResCon2_0_5: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000330153599381
+GroupConv2_0_6: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:2,value:0.000240646401048
+GroupConv2_0_7: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:4,value:0.000273942396045
+GroupConv2_0_8: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:8,value:0.000340377597511
+SpaCon2_0_9: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000379398399591
+SpaCon2_0_10: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000399052801728
+SpaCon2_0_11: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000404595199227
+ShuffleMBConv2_0_12: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000403484803438
+ShuffleMBConv2_0_13: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000402547201514
+ShuffleMBConv2_0_14: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:8-kernel:3-stride:1-group:0,value:0.000429465603828
+GhostMBConv2_0_15: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000477116799355
+GhostMBConv2_0_16: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:5-stride:1-group:0,value:0.000474214401841
+GhostMBConv2_0_17: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:7-stride:1-group:0,value:0.000515814402699
+MBConv2_1_0: 
+  MBConv-input:128x128x88-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000217206402123
+MBConv2_1_1: 
+  MBConv-input:128x128x88-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.000301875197887
+MBConv2_1_2: 
+  MBConv-input:128x128x88-output:128x128x16-expand:6-kernel:5-stride:1-group:0,value:0.000349401593208
+ResCon2_1_3: 
+  ResCon-input:128x128x88-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.000325222396851
+ResCon2_1_4: 
+  ResCon-input:128x128x88-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000268185597658
+ResCon2_1_5: 
+  ResCon-input:128x128x88-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000289280000329
+GroupConv2_1_6: 
+  GroupConv-input:128x128x88-output:128x128x16-expand:0-kernel:3-stride:1-group:2,value:0.000320624002814
+GroupConv2_1_7: 
+  GroupConv-input:128x128x88-output:128x128x16-expand:0-kernel:3-stride:1-group:4,value:0.000337119996548
+GroupConv2_1_8: 
+  GroupConv-input:128x128x88-output:128x128x16-expand:0-kernel:3-stride:1-group:8,value:0.000352768003941
+SpaCon2_1_9: 
+  SpaCon-input:128x128x88-output:128x128x16-expand:0-kernel:3-stride:1-group:0,value:0.000398563200235
+SpaCon2_1_10: 
+  SpaCon-input:128x128x88-output:128x128x16-expand:0-kernel:5-stride:1-group:0,value:0.000410009595752
+SpaCon2_1_11: 
+  SpaCon-input:128x128x88-output:128x128x16-expand:0-kernel:7-stride:1-group:0,value:0.000186675203592
+ShuffleMBConv2_1_12: 
+  ShuffleMBConv-input:128x128x88-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000481587204337
+ShuffleMBConv2_1_13: 
+  ShuffleMBConv-input:128x128x88-output:128x128x16-expand:4-kernel:3-stride:1-group:0,value:0.000410726395249
+ShuffleMBConv2_1_14: 
+  ShuffleMBConv-input:128x128x88-output:128x128x16-expand:8-kernel:3-stride:1-group:0,value:0.000399974399805
+GhostMBConv2_1_15: 
+  GhostMBConv-input:128x128x88-output:128x128x16-expand:2-kernel:3-stride:1-group:0,value:0.000480995205045
+GhostMBConv2_1_16: 
+  GhostMBConv-input:128x128x88-output:128x128x16-expand:2-kernel:5-stride:1-group:0,value:0.000526950395107
+GhostMBConv2_1_17: 
+  GhostMBConv-input:128x128x88-output:128x128x16-expand:2-kernel:7-stride:1-group:0,value:0.000548559999466
+MBConv3_0_0: 
+  MBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000255695997179
+MBConv3_0_1: 
+  MBConv-input:256x256x24-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000226927997172
+MBConv3_0_2: 
+  MBConv-input:256x256x24-output:256x256x8-expand:6-kernel:5-stride:1-group:0,value:0.000400998392701
+ResCon3_0_3: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000250188797712
+ResCon3_0_4: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000333622404933
+ResCon3_0_5: 
+  ResCon-input:256x256x24-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000401446399093
+GroupConv3_0_6: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:2,value:0.000256512001157
+GroupConv3_0_7: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:4,value:0.000272518393397
+GroupConv3_0_8: 
+  GroupConv-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:8,value:0.000357488003373
+SpaCon3_0_9: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.00037416960001
+SpaCon3_0_10: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000389836800098
+SpaCon3_0_11: 
+  SpaCon-input:256x256x24-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000391900798678
+ShuffleMBConv3_0_12: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.00040090559721
+ShuffleMBConv3_0_13: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000408678397536
+ShuffleMBConv3_0_14: 
+  ShuffleMBConv-input:256x256x24-output:256x256x8-expand:8-kernel:3-stride:1-group:0,value:0.000423833602667
+GhostMBConv3_0_15: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000476569595933
+GhostMBConv3_0_16: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:5-stride:1-group:0,value:0.000476262399554
+GhostMBConv3_0_17: 
+  GhostMBConv-input:256x256x24-output:256x256x8-expand:2-kernel:7-stride:1-group:0,value:0.000521113607287
+MBConv4_0_0: 
+  MBConv-input:256x256x8-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000235014401376
+MBConv4_0_1: 
+  MBConv-input:256x256x8-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.000327782396227
+MBConv4_0_2: 
+  MBConv-input:256x256x8-output:256x256x8-expand:6-kernel:5-stride:1-group:0,value:0.000152473598719
+ResCon4_0_3: 
+  ResCon-input:256x256x8-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000343756798655
+ResCon4_0_4: 
+  ResCon-input:256x256x8-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.00023862079978
+ResCon4_0_5: 
+  ResCon-input:256x256x8-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.00023408639878
+GroupConv4_0_6: 
+  GroupConv-input:256x256x8-output:256x256x8-expand:0-kernel:3-stride:1-group:2,value:0.000207673601806
+GroupConv4_0_7: 
+  GroupConv-input:256x256x8-output:256x256x8-expand:0-kernel:3-stride:1-group:4,value:0.00019783680141
+GroupConv4_0_8: 
+  GroupConv-input:256x256x8-output:256x256x8-expand:0-kernel:3-stride:1-group:8,value:0.000170297599211
+SpaCon4_0_9: 
+  SpaCon-input:256x256x8-output:256x256x8-expand:0-kernel:3-stride:1-group:0,value:0.000217414399981
+SpaCon4_0_10: 
+  SpaCon-input:256x256x8-output:256x256x8-expand:0-kernel:5-stride:1-group:0,value:0.000250265601277
+SpaCon4_0_11: 
+  SpaCon-input:256x256x8-output:256x256x8-expand:0-kernel:7-stride:1-group:0,value:0.000234704001248
+ShuffleMBConv4_0_12: 
+  ShuffleMBConv-input:256x256x8-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.0002389215976
+ShuffleMBConv4_0_13: 
+  ShuffleMBConv-input:256x256x8-output:256x256x8-expand:4-kernel:3-stride:1-group:0,value:0.00025825919807
+ShuffleMBConv4_0_14: 
+  ShuffleMBConv-input:256x256x8-output:256x256x8-expand:8-kernel:3-stride:1-group:0,value:0.000246089601517
+GhostMBConv4_0_15: 
+  GhostMBConv-input:256x256x8-output:256x256x8-expand:2-kernel:3-stride:1-group:0,value:0.000363225600123
+GhostMBConv4_0_16: 
+  GhostMBConv-input:256x256x8-output:256x256x8-expand:2-kernel:5-stride:1-group:0,value:0.000369561597705
+GhostMBConv4_0_17: 
+  GhostMBConv-input:256x256x8-output:256x256x8-expand:2-kernel:7-stride:1-group:0,value:0.000379494401813
+'Post_conv:': 256x256x8-output:256x256x1,value:1.91551994532e-05

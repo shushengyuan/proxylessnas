@@ -1,0 +1,1709 @@
+{
+  "generated_at": "2026-04-27T11:23:27",
+  "logs_root": "/home/intern/proxylessnas/search/logs",
+  "count": 37,
+  "runs": [
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48",
+      "run_name": "0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "0,1",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_48/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 8.225,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51",
+      "run_name": "0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "0,1",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_10_04_2026_01_42_51/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 9.024,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38",
+      "run_name": "0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "0,1",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_whole_all_27_04_2026_00_04_38/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 8.408,
+        "search_duration_hours_approx": 11.2999
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23",
+      "run_name": "1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": 1,
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "flops",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/1_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_23/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0961
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41",
+      "run_name": "2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "2,3",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "cpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_01_41/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0044
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02",
+      "run_name": "2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "2,3",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "cpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24",
+      "run_name": "4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_47_24/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07",
+      "run_name": "4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_56_07/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43",
+      "run_name": "4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_15_57_43/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14",
+      "run_name": "4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_01_14/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07",
+      "run_name": "4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 10
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_IRSTD-SIRST_Super_all_whole_all_30_03_2026_16_07_07/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.15,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_05/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_49_59/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 9.384,
+        "search_duration_hours_approx": 0.0006
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "edge-gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_57_24/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "edge-gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_00_58_21/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "edge-gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_00_41/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "edge-gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_04_00/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "edge-gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_06_30/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 8
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_28_03_2026_01_08_51/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 8.754,
+        "search_duration_hours_approx": 0.48
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_29_03_2026_13_51_37/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 9.779,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 4,
+        "test": 4
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_54_20/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0056
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_55_18/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0072
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 16,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_56_15/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 1500,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_28_03_2026_01_57_24/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 6.662,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_11_04_15/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 6.599,
+        "search_duration_hours_approx": 2.7592
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29",
+      "run_name": "4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "4,5",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/4,5_NUAA-SIRST_Super_all_whole_all_29_03_2026_15_51_29/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 9.269,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58",
+      "run_name": "5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": 5,
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 0,
+        "search_epochs": 0,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "mul#log",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/5_NUAA-SIRST_Super_all_whole_25_03_2026_01_39_58/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11",
+      "status": "checkpoint_only",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_14_25_11/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 7.828,
+        "search_duration_hours_approx": 0.3747
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_04_04_2026_20_39_58/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 8.723,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 10
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 10
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_ghostnet/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_ghostnet/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 15
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_irstd1k_shufflenet/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle",
+      "run_name": "6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle",
+      "status": "completed",
+      "seed": 0,
+      "dataset": "IRSTD-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 16,
+        "test": 16
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 4,
+        "channel_num": 32,
+        "conv_type": "res_add_new",
+        "net_name": "ProxylessNASNets",
+        "net_blocks": 10
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_IRSTD-SIRST_Super_all_whole_all_31_03_2026_20_54_05_shuffle/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": 3.396,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35",
+      "run_name": "6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 100,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "gpu",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_08_04_2026_23_36_35/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    },
+    {
+      "run_dir": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56",
+      "run_name": "6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56",
+      "status": "unknown",
+      "seed": 0,
+      "dataset": "NUAA-SIRST",
+      "gpu": "6,7",
+      "batch_size": {
+        "train": 8,
+        "test": 1
+      },
+      "search_budget": {
+        "warmup_epochs": 100,
+        "search_epochs": 1500,
+        "grad_update_every": 5,
+        "grad_update_steps": 1
+      },
+      "regularization": {
+        "target_hardware": "flops",
+        "reg_type": "add#linear",
+        "reg_lambda": 0.1,
+        "reg_alpha": 0.2,
+        "reg_beta": 0.3,
+        "ref_value": 7000000000.0
+      },
+      "architecture": {
+        "model_name": "Super_all",
+        "candidates_type": "whole_all",
+        "iterations": 5,
+        "channel_num": "two",
+        "conv_type": "res_add_new_new",
+        "net_name": null,
+        "net_blocks": null
+      },
+      "artifact_paths": {
+        "parameters_txt": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56/parameters.txt",
+        "learned_net_config": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56/learned_net/net.config",
+        "learned_run_config": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56/learned_net/run.config",
+        "arch_log": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56/logs/arch.log",
+        "train_log": "/home/intern/proxylessnas/search/logs/6,7_NUAA-SIRST_Super_all_whole_all_17_04_2026_21_42_56/logs/train_console.txt"
+      },
+      "metrics": {
+        "gpu_avg_time_ms_from_log": null,
+        "search_duration_hours_approx": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Warmup Valid [1/1]	loss 0.999	validate_IoU  0.002(0.002)	Train warm_train_IOU 0.001	flops: 30.5G	total_params: 1.2M
+Valid [1/2]	loss 0.999	val_mean_IOU 0.003 (0.003)	Train IoU 0.002	Entropy 1.79176	Latency-flops: 0.000ms T-flops:0.000ms	Flops: 30480.17M	T-Flops: 23582.96M	Params: 1.21M	T-Params: 1.21M	
+Valid [2/2]	loss 0.999	val_mean_IOU 0.002 (0.003)	Train IoU 0.002	Entropy 1.79081	Latency-flops: 0.000ms T-flops:0.000ms	Flops: 15647.77M	T-Flops: 23188.96M	Params: 0.69M	T-Params: 0.69M	

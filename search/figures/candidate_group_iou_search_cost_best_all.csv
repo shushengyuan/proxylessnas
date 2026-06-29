@@ -1,0 +1,3 @@
+candidate_group,candidate_count,target_hardware,run_name,run_dir,gpu,gpu_count,warmup_epochs,search_epochs,search_iou,iou_records,train_wall_hours,train_epoch_records,search_gpu_hours,has_valid_log,has_train_log,is_ablation
+Res_Group_Spa_MBConv,12,gpu,"0,1_NUAA-SIRST_Super_all_Res_Group_Spa_MBConv_27_10_2023_10_47_00","/home/intern/proxylessnas/search/logs/0,1_NUAA-SIRST_Super_all_Res_Group_Spa_MBConv_27_10_2023_10_47_00","0,1",2,300,1500,0.660000,1800,2.165894,1800,4.331788,True,True,False
+whole_all,18,cpu,"2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02","/home/intern/proxylessnas/search/logs/2,3_NUAA-SIRST_Super_all_whole_all_16_04_2026_21_03_02","2,3",2,100,1500,0.673000,1600,7.631209,1600,15.262419,True,True,False

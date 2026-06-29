@@ -1,0 +1,37 @@
+{
+  "search_log": "/home/intern/proxylessnas/search/logs/4,5,6,7_NUAA-SIRST_Super_all_whole_all_02_05_2026_00_15_03",
+  "output_dir": "/home/intern/proxylessnas/search",
+  "seed": 0,
+  "cpu_threads": 1,
+  "warmup": 5,
+  "repeat": 10,
+  "statistic": "mean",
+  "trim_ratio": 0.1,
+  "cudnn_benchmark": false,
+  "torch_version": "2.8.0+cu128",
+  "build": {
+    "gene": "/home/intern/proxylessnas/search/../search1yhy/0_all_search_1_NUAA-SIRST_DNANet_23_10_2023_20_06_25_new/phase1_gene.txt",
+    "iterations": 5,
+    "conv_type": "res_add_new_new",
+    "backbone": "resnet_18",
+    "in_channel": 3,
+    "num_class": 1,
+    "channel_num": "two",
+    "model_name": "Super_all",
+    "add_decoder": "False",
+    "add_encoder0": "True",
+    "more_down": "False",
+    "candidates_type": "whole_all",
+    "num_candidates": 18
+  },
+  "crop_size": 256,
+  "in_channel": 3,
+  "devices": {
+    "gpu": {
+      "device_name": "NVIDIA GeForce RTX 4090",
+      "output": "/home/intern/proxylessnas/search/Latency_gpu.yaml",
+      "entries": 217,
+      "sum_ms": 113.97406719288325
+    }
+  }
+}

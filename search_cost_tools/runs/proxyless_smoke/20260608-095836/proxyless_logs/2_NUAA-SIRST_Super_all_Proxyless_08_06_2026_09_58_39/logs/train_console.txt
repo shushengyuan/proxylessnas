@@ -1,0 +1,24 @@
+Warmup Train [1][0/52]	Time 1.844 (1.844)	Data 0.019 (0.019)	Loss 0.9996 (0.9996)	warm_train_IOU 0.000	lr 0.01000
+Warmup Train [1][10/52]	Time 0.122 (0.410)	Data 0.014 (0.014)	Loss 0.9994 (0.9993)	warm_train_IOU 0.001	lr 0.01000
+Warmup Train [1][20/52]	Time 0.147 (0.288)	Data 0.016 (0.018)	Loss 0.9994 (0.9992)	warm_train_IOU 0.001	lr 0.01000
+Warmup Train [1][30/52]	Time 0.164 (0.245)	Data 0.013 (0.017)	Loss 0.9996 (0.9992)	warm_train_IOU 0.001	lr 0.01000
+Warmup Train [1][40/52]	Time 0.116 (0.222)	Data 0.013 (0.016)	Loss 0.9991 (0.9992)	warm_train_IOU 0.001	lr 0.01000
+Warmup Train [1][50/52]	Time 0.163 (0.206)	Data 0.014 (0.015)	Loss 0.9985 (0.9992)	warm_train_IOU 0.001	lr 0.01000
+Warmup Train [1][52/52]	Time 0.146 (0.203)	Data 0.016 (0.015)	Loss 0.9985 (0.9992)	warm_train_IOU 0.001	lr 0.01000
+==========Warmup Valid [1/1]	loss 0.999	validate_IoU  0.002(0.002)	Train warm_train_IOU 0.001	flops: 30.5G	total_params: 1.2M
+Train [1][0/52]	Time 0.095 (0.095)	Data Time 0.013 (0.013)	Loss 0.9998 (0.9998)	Entropy 1.79176 (1.79176)	train_IoU 0.001	lr 0.01000	
+Train [1][10/52]	Time 0.132 (0.136)	Data Time 0.012 (0.013)	Loss 0.9999 (0.9991)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00978	
+Train [1][20/52]	Time 0.159 (0.145)	Data Time 0.012 (0.014)	Loss 0.9993 (0.9990)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00915	
+Train [1][30/52]	Time 0.198 (0.148)	Data Time 0.013 (0.014)	Loss 0.9995 (0.9991)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00815	
+Train [1][40/52]	Time 0.145 (0.149)	Data Time 0.012 (0.015)	Loss 0.9994 (0.9991)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00688	
+Train [1][50/52]	Time 0.130 (0.148)	Data Time 0.018 (0.015)	Loss 0.9985 (0.9990)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00544	
+Train [1][52/52]	Time 0.158 (0.148)	Data Time 0.014 (0.015)	Loss 0.9997 (0.9990)	Entropy 1.79176 (1.79176)	train_IoU 0.002	lr 0.00515	
+==========Valid [1/2]	loss 0.999	val_mean_IOU 0.003 (0.003)	Train IoU 0.002	Entropy 1.79176	Latency-flops: 0.000ms T-flops:0.000ms	Flops: 30480.17M	T-Flops: 23582.96M	Params: 1.21M	T-Params: 1.21M	
+Train [2][0/52]	Time 0.109 (0.109)	Data Time 0.013 (0.013)	Loss 0.9998 (0.9998)	Entropy 1.79176 (1.79176)	train_IoU 0.000	lr 0.00500	
+Train [2][10/52]	Time 0.108 (0.163)	Data Time 0.015 (0.014)	Loss 0.9977 (0.9990)	Entropy 1.79172 (1.79175)	train_IoU 0.002	lr 0.00354	
+Train [2][20/52]	Time 0.097 (0.177)	Data Time 0.014 (0.014)	Loss 0.9997 (0.9990)	Entropy 1.79161 (1.79172)	train_IoU 0.002	lr 0.00221	
+Train [2][30/52]	Time 0.088 (0.177)	Data Time 0.016 (0.013)	Loss 0.9986 (0.9990)	Entropy 1.79142 (1.79166)	train_IoU 0.002	lr 0.00112	
+Train [2][40/52]	Time 0.082 (0.172)	Data Time 0.015 (0.014)	Loss 0.9990 (0.9990)	Entropy 1.79115 (1.79158)	train_IoU 0.002	lr 0.00037	
+Train [2][50/52]	Time 0.096 (0.171)	Data Time 0.011 (0.014)	Loss 0.9997 (0.9990)	Entropy 1.79081 (1.79148)	train_IoU 0.002	lr 0.00002	
+Train [2][52/52]	Time 0.184 (0.172)	Data Time 0.014 (0.013)	Loss 0.9941 (0.9990)	Entropy 1.79081 (1.79145)	train_IoU 0.002	lr 0.00000	
+==========Valid [2/2]	loss 0.999	val_mean_IOU 0.002 (0.003)	Train IoU 0.002	Entropy 1.79081	Latency-flops: 0.000ms T-flops:0.000ms	Flops: 15647.77M	T-Flops: 23188.96M	Params: 0.69M	T-Params: 0.69M	
